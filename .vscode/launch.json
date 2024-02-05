@@ -1,0 +1,105 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "demo.src.main.java.com.example.App",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task1",
+            "request": "launch",
+            "mainClass": "homework1.task1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task2",
+            "request": "launch",
+            "mainClass": "homework1.task2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task3",
+            "request": "launch",
+            "mainClass": "homework1.task3",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task1(1)",
+            "request": "launch",
+            "mainClass": "seminar1.task1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task2(1)",
+            "request": "launch",
+            "mainClass": "seminar1.task2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task3(1)",
+            "request": "launch",
+            "mainClass": "seminar1.task3",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task4",
+            "request": "launch",
+            "mainClass": "seminar1.task4",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task5",
+            "request": "launch",
+            "mainClass": "seminar1.task5",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task1(2)",
+            "request": "launch",
+            "mainClass": "seminar2.classWork.task1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task1(3)",
+            "request": "launch",
+            "mainClass": "seminar2.task1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "task2(2)",
+            "request": "launch",
+            "mainClass": "seminar2.task2",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "demo"
+        }
+    ]
+}
