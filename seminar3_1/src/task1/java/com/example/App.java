@@ -1,6 +1,7 @@
-package com.example;
+package seminar3_1.src.task1.java.com.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -8,19 +9,16 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-public class App 
-{
+public class App {
     public static void main( String[] argsStrings )
-    {
-        Item item1 = new Item("facol", "belarus", 0);
-        Item item2 = new Item("makaron", "rusian", 12);
-        Item item3 = new Item("facol", "belarus", 10);
-        Item item4 = new Item("makaron", "rusian", 11);
-        List<Item> itemList = new ArrayList<>();
-        itemList.add(item1);
-        itemList.add(item2);
-        itemList.add(item3);
-        itemList.add(item4);
+    {      
+        List<Item> itemList = new ArrayList<>(Arrays.asList(
+            new Item("facol", "belarus", 10),
+            new Item("makaron", "rusian", 12),
+            new Item("facol", "belarus", 10),
+            new Item("makaron", "rusian", 11)
+        ));
+        
         Scanner scanner = new Scanner(System.in);
         String searchName = scanner.nextLine();
         List<String> countriList = new ArrayList<>();

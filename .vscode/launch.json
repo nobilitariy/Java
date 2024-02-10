@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "seminar3_3"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "seminar2_1"
+        },
+        {
+            "type": "java",
+            "name": "Appp",
+            "request": "launch",
+            "mainClass": "seminar3.Appp",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Appp",
+            "request": "launch",
+            "mainClass": "Appp",
+            "projectName": "join"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

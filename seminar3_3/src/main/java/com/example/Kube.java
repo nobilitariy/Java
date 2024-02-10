@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Item {
-   private String name;
-   private String countru;
-   private double value;
+public class Kube {
+    private double size;
+    private String color;
+    private String materials;
 }
